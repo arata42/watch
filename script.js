@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (isMobile) {
         //body.style.touchAction = 'none';
         body.style.zoom = '120%';
-        //watch.style.transform = 'translate(-50%, -50%)';//-69%)';
+        watch.style.transform = 'translate(-50%, -50%)';//-69%)';
     } else {
         body.style.touchAction = 'pinch-zoom';
         body.style.zoom = '100%';
