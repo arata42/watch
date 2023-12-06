@@ -9,12 +9,16 @@ const min2 = document.querySelector('.min2');
 const hour2 = document.querySelector('.hour2');
 const dateRing2 = document.querySelector('.dateRing2');
 
+/* ドット表示用 */
 //const dot = document.querySelector('.dot');
+
 /*
 let sec_deg = 0;
 let min_deg = 0;
 let hour_deg = 0;
 */
+
+/* デバッグ用 */
 //let count = 0;
 
 document.addEventListener("DOMContentLoaded", function() {
