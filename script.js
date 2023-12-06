@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const isMobile = window.matchMedia("only screen and (max-width: 1000px)").matches;
 
     if (isMobile) {
-        body.style.touchAction = 'none';
+        //body.style.touchAction = 'none';
         body.style.zoom = '120%';
         //watch.style.transform = 'translate(-50%, -50%)';//-69%)';
     } else {
